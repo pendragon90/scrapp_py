@@ -14,7 +14,7 @@ try:
     scroll_count = 0
     pagination = 0
 
-    while pagination < 1:
+    while pagination < 4:
         for _ in range(5):
             names = driver.find_elements(
                 By.CSS_SELECTOR,
